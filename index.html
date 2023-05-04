@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Los Scoops</title>
+</head>
+
+<body>
+    <div class='form'>
+        <h1>Los Scoops</h1>
+        <label for="numScoops">Number of Scoops:</label>
+        <input type="number" id="numScoops" name="numScoops">
+        <div class="coneOrCup">
+            <input type="radio" id="coneOption" name="coneOption" value="Cone">
+            <label for="cone">Cone</label><br>
+            <input type="radio" id="cupOption" name="coneOption" value="cup">
+            <label for="cup">Cup</label><br>
+        </div>
+        <h2>Toppings</h2>
+        <div class="toppings">
+            <input type="checkbox" id="sprinkles" name="sprinkles" value="sprinkles">
+            <label for="sprinkles">Sprinkles ($.50)</label><br>
+            <input type="checkbox" id="whippedCream" name="whippedCream" value="whippedCream">
+            <label for="whippedCream">Whipped Cream ($0.25)</label><br>
+            <input type="checkbox" id="hotFudge" name="hotFudge" value="hotFudge">
+            <label for="hotFudge" id="hotFudge">Hot Fudge ($1.25)</label><br>
+            <input type="checkbox" id="cherry" name="cherry" value="cherry">
+            <label for="cherry" id="cherry">Cherry ($0.25)</label><br>
+        </div>
+        <button type="submit">Submit Order</button>
+        <div class="checkout"></div>
+        <table>
+
+            <td>Base Price:</td>
+            <td>Tax:</td>
+            <td>Total Due:</td>
+
+
+            <td>$.00</td>
+            <td>$.00</td>
+            <td>$.00</td>
+
+        </table>
+
+    </div>
